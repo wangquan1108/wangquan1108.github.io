@@ -1,7 +1,10 @@
 ---
-layout: default
-title: Home
+short_name: quan
+name: wang quan
+position: Original Singer
+layout: author
 ---
+wang quan is an excellent original singer,he likes hot pot.
 <head>
 	<meta charset="utf-8">
 	<title>Bootstrap 实例 - 图像</title>
@@ -15,7 +18,7 @@ title: Home
         margin: 0;
         padding: 0;
         height: 100vh;
-        background-image: url('https://img2.imgtp.com/2024/05/09/jYBGViZV.jpg');
+        background-image: url('https://img2.imgtp.com/2024/05/09/Vk4vkD38.jpg');
         background-size: cover;
         background-position: center;
         display: flex;
@@ -56,8 +59,5 @@ title: Home
         }
     </style>
 </head>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<h1>{{ "hi!我是小流星分享吧" | downcase }}</h1>
-<h1>点击左上角解锁更多功能</h1>
 
 
