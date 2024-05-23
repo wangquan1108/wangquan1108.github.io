@@ -6,60 +6,58 @@ title: About
 # About page
 
 This page tells you a little bit about me.
+<meta charset="utf-8" />
+<title>Bootstrap 实例 - 手机、平板电脑、台式电脑</title>
+<link href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdn.staticfile.net/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<head>
-	<meta charset="utf-8" />
-	<title>Bootstrap 实例 - 手机、平板电脑、台式电脑</title>
-   <link href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-   <script src="https://cdn.staticfile.net/jquery/2.0.0/jquery.min.js"></script>
-   <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<li class="active">  
 
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-
-   <title>About</title>
-   <style>
-      body {
-         font-family: Arial, sans-serif;
-         margin: 0;
-         padding: 0;
-         height: 100vh;
-         background-image: url('https://img2.imgtp.com/2024/05/09/IaraQwYf.jpg');
-         background-size: cover;
-         background-position: center;
-         display: flex;
-         flex-direction: column;
-      }
-      .header {
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         padding: 20px;
-      }
-      .main-content {
-         flex-grow: 1;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-      }
-      h1 {
-         color: #fff;
-         text-transform: uppercase;
-         letter-spacing: 2px;
-         text-align: center;
-         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-         padding: 20px;
-      }
-      nav {
-         display: flex;
-      }
-      nav a {
-         color: #fff;
-         text-decoration: none;
-         margin-right: 20px;
-      }
-   </style>
-</head>
+<title>About</title>
+<style>
+   body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-image: url('https://img2.imgtp.com/2024/05/09/IaraQwYf.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+   }
+   .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+   }
+   .main-content {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   h1 {
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+   }
+   nav {
+      display: flex;
+   }
+   nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+   }
+</style>
 <body>
    <div class="container">
       <h1>Hello, Users!</h1>
