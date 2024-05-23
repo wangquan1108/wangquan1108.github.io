@@ -1,12 +1,23 @@
-<nav>
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-    {% endfor %}
+<nav class="navbar navbar-default">   
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+		<ul class="nav navbar-nav">  
+				
+			<li class="active">  
+				<a href="/">Home</a>      
+			</li>  
+				
+			<li >  
+				<a href="/about.html">About</a>      
+			</li>  
+				
+			<li >  
+				<a href="/blog.html">Blog</a>      
+			</li>  
+				
+			<li >  
+				<a href="/staff.html">Staff</a>      
+			</li>  
+				
+		</ul>  
+	</div>  
 </nav>
-<head>
-	<meta charset="utf-8"> 
-	<title>Bootstrap 实例 - 关闭图标</title>
-	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
-	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>

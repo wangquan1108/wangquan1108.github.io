@@ -7,8 +7,6 @@ title: About
 
 This page tells you a little bit about me.
 
-
-
 <head>
 	<meta charset="utf-8" />
 	<title>Bootstrap 实例 - 手机、平板电脑、台式电脑</title>
@@ -94,8 +92,5 @@ This page tells you a little bit about me.
     </button>  
    </p>
 </div>  
-  
-<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>  
-<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
 
+</body>
