@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-06-05T09:07:55+00:00</updated><id>/feed.xml</id><entry><title type="html">Plantuml的用法</title><link href="/2024/05/23/PlantUML%E7%9A%84%E7%94%A8%E6%B3%95.html" rel="alternate" type="text/html" title="Plantuml的用法" /><published>2024-05-23T00:00:00+00:00</published><updated>2024-05-23T00:00:00+00:00</updated><id>/2024/05/23/PlantUML%E7%9A%84%E7%94%A8%E6%B3%95</id><content type="html" xml:base="/2024/05/23/PlantUML%E7%9A%84%E7%94%A8%E6%B3%95.html"><![CDATA[<p>这是用例图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='189px' preserveAspectRatio='none' style='width:404px;height:189px;background:#FFFFFF;' version='1.1' viewBox='0 0 404 189' width='404px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id='elem_User'><ellipse cx='91.5' cy='14' fill='#F1F1F1' rx='8' ry='8' style='stroke:#181818;stroke-width:0.5;'/><path d='M91.5,22 L91.5,49 M78.5,30 L104.5,30 M91.5,49 L78.5,64 M91.5,49 L104.5,64 ' fill='none' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='32' x='75.5' y='78.4951'>User</text></g><g id='elem_Use'><ellipse cx='91.728' cy='162.5456' fill='#F1F1F1' rx='85.728' ry='19.5456' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='132' x='25.728' y='165.3923'>Use the application</text></g><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><g id='elem_Admin'><ellipse cx='305.5' cy='14' fill='#F1F1F1' rx='8' ry='8' style='stroke:#181818;stroke-width:0.5;'/><path d='M305.5,22 L305.5,49 M292.5,30 L318.5,30 M305.5,49 L292.5,64 M305.5,49 L318.5,64 ' fill='none' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='79' x='266' y='78.4951'>Main Admin</text></g><g id='elem_Admin the application'><ellipse cx='305.2771' cy='162.4554' fill='#F1F1F1' rx='92.7771' ry='20.9554' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='148' x='231.2771' y='165.3021'>Admin the application</text></g><!--MD5=[9b1e83a301d632e8d5a1d64f176fc1f5]
+link User to Use--><g id='link_User_Use'><path d='M91.5,81.52 C91.5,99.8 91.5,121.34 91.5,137.46 ' fill='none' id='User-to-Use' style='stroke:#181818;stroke-width:1.0;'/><polygon fill='#181818' points='91.5,142.7,95.5,133.7,91.5,137.7,87.5,133.7,91.5,142.7' style='stroke:#181818;stroke-width:1.0;'/></g><!--MD5=[286837173fbad0561e8a9a3273598f57]
+link Admin to Admin the application--><g id='link_Admin_Admin the application'><path d='M305.5,81.52 C305.5,99.32 305.5,120.21 305.5,136.17 ' fill='none' id='Admin-to-Admin the application' style='stroke:#181818;stroke-width:1.0;'/><polygon fill='#181818' points='305.5,141.39,309.5,132.39,305.5,136.39,301.5,132.39,305.5,141.39' style='stroke:#181818;stroke-width:1.0;'/></g></g></svg></div><p>下面是一个思维导图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='247px' preserveAspectRatio='none' style='width:182px;height:247px;background:#FFFFFF;' version='1.1' viewBox='0 0 182 247' width='182px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='60' x='10' y='104.4453'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='40' x='20' y='127.4404'>bread</text><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='50' x='120' y='20'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='30' x='130' y='42.9951'>flour</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,38.1484 110,38.1484 L120,38.1484 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='28' x='120' y='76.2969'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='130' y='99.292'>水</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,94.4453 110,94.4453 L120,94.4453 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='28' x='120' y='132.5938'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='130' y='155.5889'>糖</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,150.7422 110,150.7422 L120,150.7422 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='47' x='120' y='188.8906'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='27' x='130' y='211.8857'>egg</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,207.0391 110,207.0391 L120,207.0391 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/></g></svg></div>
+<p>一个简单的泳道图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='149px' preserveAspectRatio='none' style='width:105px;height:149px;background:#FFFFFF;' version='1.1' viewBox='0 0 105 149' width='105px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='23' x2='23' y1='36.2969' y2='114.5625'/><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='77' x2='77' y1='36.2969' y2='114.5625'/><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='24.9951'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='133.5576'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='24.9951'>Dog</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='133.5576'>Dog</text><polygon fill='#181818' points='65.5,63.4297,75.5,67.4297,65.5,71.4297,69.5,67.4297' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='23.5' x2='71.5' y1='67.4297' y2='67.4297'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='30' x='30.5' y='62.3638'>hello</text><polygon fill='#181818' points='34.5,92.5625,24.5,96.5625,34.5,100.5625,30.5,96.5625' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='28.5' x2='76.5' y1='96.5625' y2='96.5625'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='11' x='40.5' y='91.4966'>hi</text></g></svg></div>]]></content><author><name>xuan</name></author><summary type="html"><![CDATA[这是用例图 UserUse the applicationMain AdminAdmin the application下面是一个思维导图 breadflour水糖egg]]></summary></entry><entry><title type="html">代码高亮</title><link href="/2024/05/23/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE.html" rel="alternate" type="text/html" title="代码高亮" /><published>2024-05-23T00:00:00+00:00</published><updated>2024-05-23T00:00:00+00:00</updated><id>/2024/05/23/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE</id><content type="html" xml:base="/2024/05/23/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE.html"><![CDATA[<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>  
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello, world!</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>]]></content><author><name>quan</name></author><summary type="html"><![CDATA[def hello_world(): print("Hello, world!")]]></summary></entry><entry><title type="html">数学公式</title><link href="/2024/05/23/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html" rel="alternate" type="text/html" title="数学公式" /><published>2024-05-23T00:00:00+00:00</published><updated>2024-05-23T00:00:00+00:00</updated><id>/2024/05/23/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F</id><content type="html" xml:base="/2024/05/23/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html"><![CDATA[<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<head>
+<title>MathJax MathML Test Page</title>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+
+<p>
+When
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>a</mi><mo>&#x2260;</mo><mn>0</mn>
+</math>,
+there are two solutions to
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>a</mi><msup><mi>x</mi><mn>2</mn></msup>
+  <mo>+</mo> <mi>b</mi><mi>x</mi>
+  <mo>+</mo> <mi>c</mi> <mo>=</mo> <mn>0</mn>
+</math>
+and they are
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>x</mi> <mo>=</mo>
+  <mrow>
+    <mfrac>
+      <mrow>
+        <mo>&#x2212;</mo>
+        <mi>b</mi>
+        <mo>&#x00B1;</mo>
+        <msqrt>
+          <msup><mi>b</mi><mn>2</mn></msup>
+          <mo>&#x2212;</mo>
+          <mn>4</mn><mi>a</mi><mi>c</mi>
+        </msqrt>
+      </mrow>
+      <mrow> <mn>2</mn><mi>a</mi> </mrow>
+    </mfrac>
+  </mrow>
+  <mtext>.</mtext>
+</math>
+</p>
+
+</body>]]></content><author><name>xuan</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Stars</title><link href="/2024/05/09/stars.html" rel="alternate" type="text/html" title="Stars" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/stars</id><content type="html" xml:base="/2024/05/09/stars.html"><![CDATA[<p>popmusic、infp</p>
+<head>
+	<meta charset="utf-8" /> 
+    <title>Bootstrap 实例 - 页面标题</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         height: 100vh;
+         background-image: url('https://img2.imgtp.com/2024/05/09/IaraQwYf.jpg');
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         flex-direction: column;
+      }
+   </style>
+</head>
+<body>
+
+<div class="page-header">
+    <h1>《流星也为你落下来了》
+    <small>这是一首可以许愿的歌</small>
+    </h1>
+</div>
+<p>《流星也为你落下来了》</p>
+<p>歌词：</p> 
+<p>一片萤火 整个星河 都被你捕捉 </p>
+<p>流星也为你落下来了 </p>
+<p>在想什么 在想什么 </p>
+<p>你望着那朵 说看到了些颜色 </p>
+<p>追问我那是什么 </p>
+<p>I want want want to dance with you till sun rise</p>
+<p>我们在草坪上 谈论什么都不再重要了 </p>
+<p>oh run run run away to life on</p>
+<p>看萤火虫萦绕着火亮了几颗 对你悄悄说 </p>
+<p>see your eyes   </p>
+<p>浅浅的海风 拂着草表达着 我最真挚的爱 </p>
+<p>stay for life on</p>
+<p>我想牵着你的手 看月亮慢慢温柔 </p>
+<p>I want want want to dance with you till sun rise</p>
+<p>我们在草坪上 谈论什么都不再重要了 </p>
+<p>oh run run run away to life on </p>
+<p>看萤火虫萦绕着火亮了几颗 对你悄悄说 一片萤火 </p>
+<p>整个星河 都被你捕捉 流星也为你落下来了 </p>
+<p>在想什么 在想什么 </p>
+<p>你望着那朵 你说你也看到了我 是透明的
+</p>
+</body>]]></content><author><name>quan</name></author><summary type="html"><![CDATA[popmusic、infp Bootstrap 实例 - 页面标题]]></summary></entry><entry><title type="html">山东狮子猫</title><link href="/2024/05/09/%E5%B1%B1%E4%B8%9C%E7%8B%AE%E5%AD%90%E7%8C%AB.html" rel="alternate" type="text/html" title="山东狮子猫" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/%E5%B1%B1%E4%B8%9C%E7%8B%AE%E5%AD%90%E7%8C%AB</id><content type="html" xml:base="/2024/05/09/%E5%B1%B1%E4%B8%9C%E7%8B%AE%E5%AD%90%E7%8C%AB.html"><![CDATA[<p>狮子猫，是食肉目猫科猫属的哺乳类动物。、</p>
+<head>
+	<meta charset="utf-8" /> 
+    <title>Bootstrap 实例 - 缩略图</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/OIP.CmJmQgra6ZHSRIZzR9WmHAHaE7?w=275&amp;h=182&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/OIP.EXNNataRWNwA24kF1WPBEAHaEn?w=292&amp;h=182&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/OIP.kmNlYJJ3OB8BjvMF7cxobgHaE6?w=278&amp;h=184&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/OIP.YzN7tUrC9zOh29PQnB60GgHaGq?w=197&amp;h=180&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+</div>
+<p>狮子猫又称临清狮子猫、白猫、山东狮子猫。起源于中国山东临清，是波斯猫和中华田园鲁西狸猫杂交而成的品种。</p>
+<p>狮子猫身体形态比一般猫大、略壮；脸宽而圆，嘴巴呈狐狸脸形状；耳朵短；直鼻梁，下巴强壮；眼睛双黄色，双蓝色、鸳鸯眼；眼睛是杏眼，眼角不吊起；四肢长短适中；爪子有长毛；毛长，大多为白色，也有花色毛。因外形与狮子狗相似，故名。</p>
+<p>狮子猫性格活泼可爱，温顺聪明且粘人，能与陌生的同伴和谐相处。狮子猫是肉食动物，需定时、定量喂养；还需要定期洗澡，保持被毛的光洁漂亮；</p>
+<p>狮子猫主要以鱼、虾、动物内脏和杂粮为食，同时适量添加维生素和矿物质，还需要配合足够的清水。狮子猫的繁殖性较差，每年一胎，每胎产仔2-3只。</p>
+<p>狮子猫因为全身雪白、长毛和鸳鸯眼而被认为具有观赏价值。还有一些稀有品种，如白猫黑尾是“铁枪拖玉瓶”，背上正中有异色的是“将军挂印”，生黑或黄尾的是“挂印拖枪”，背黑而腹白的是“乌云覆雪”，黑猫白爪的是“踏雪寻梅”，头颈正中有异色，尾尖与头斑一色的叫做“鞭打绣球”等等。</p>
+</body>]]></content><author><name>xuan</name></author><summary type="html"><![CDATA[狮子猫，是食肉目猫科猫属的哺乳类动物。、 Bootstrap 实例 - 缩略图]]></summary></entry><entry><title type="html">虚拟机</title><link href="/2024/04/04/%E8%99%9A%E6%8B%9F%E6%9C%BA.html" rel="alternate" type="text/html" title="虚拟机" /><published>2024-04-04T00:00:00+00:00</published><updated>2024-04-04T00:00:00+00:00</updated><id>/2024/04/04/%E8%99%9A%E6%8B%9F%E6%9C%BA</id><content type="html" xml:base="/2024/04/04/%E8%99%9A%E6%8B%9F%E6%9C%BA.html"><![CDATA[<p>tar命令解压不了文件——这是一个悲伤的故事。重装都没用。</p>
+<head>
+	<meta charset="utf-8" /> 
+    <title>Bootstrap 实例 - 缩略图</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/R.b5b91890a358d93ef7cfcdf604ba04da?rik=1kXGb4xj3er31g&amp;pid=ImgRaw&amp;r=0" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/62cf171f6e17bL0X.gif" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/OIP.V_oXmo6Ol_rDVnCW2aoKnQHaGx?rs=1&amp;pid=ImgDetMain" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://www.jiuwa.net/pic/20170822/1503358888390340.jpg" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+</div>
+</body>]]></content><author><name>xuan</name></author><summary type="html"><![CDATA[tar命令解压不了文件——这是一个悲伤的故事。重装都没用。 Bootstrap 实例 - 缩略图]]></summary></entry><entry><title type="html">中华田园猫</title><link href="/2023/11/08/%E4%B8%AD%E5%8D%8E%E7%94%B0%E5%9B%AD%E7%8C%AB.html" rel="alternate" type="text/html" title="中华田园猫" /><published>2023-11-08T00:00:00+00:00</published><updated>2023-11-08T00:00:00+00:00</updated><id>/2023/11/08/%E4%B8%AD%E5%8D%8E%E7%94%B0%E5%9B%AD%E7%8C%AB</id><content type="html" xml:base="/2023/11/08/%E4%B8%AD%E5%8D%8E%E7%94%B0%E5%9B%AD%E7%8C%AB.html"><![CDATA[<p>中华田园猫又称“土猫”，是食肉目猫科动物。</p>
+<head>
+	<meta charset="utf-8" /> 
+	<title>Bootstrap 实例 - 基本的表格</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />  
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<table class="table table-hover">
+	<caption>中华田园猫（部分）表格</caption>
+   <thead>
+      <tr>
+         <th>中华田园猫</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr><td>狸花猫</td></tr>
+         <tr><td>白猫</td></tr>
+         <tr><td>黑猫</td></tr>
+         <tr><td>三花猫</td></tr>
+         <tr><td>橘猫</td></tr>
+         <tr><td>奶牛猫</td></tr>
+         <tr><td>四耳猫</td></tr>
+         <tr><td>山东狮子猫</td></tr>
+      
+   </tbody>
+</table>
+<p>中华田园猫性格活泼，独立，好奇心重，捕鼠能力强。</p>
+<p>中华田园猫经常自己清理毛发，并且常掩盖粪便，防止天敌从其粪便气味发现和追踪。中华田园猫为肉食性动物，有昼伏夜出的习性。中华田园猫在早晨和晚上进食；配种时间一般在夜间。 </p>
+<p>过去中国的普通家猫一直没有学名，近些年来不少网友将中国普通家猫命名为“中华田园猫”。之后经过中国长城猫俱乐部历时六年的不懈努力，中华田园猫类中的中国狸花猫成为了中国目前唯一被CFA认可的中国本土自然品种。</p>
+<p>中华田园猫又称“土猫”，是食肉目猫科动物。</p>
+<p>中华田园猫是对中国本土家猫类的统称，根据毛色分为狸花猫、橘猫、三花花猫、白猫、黑猫等多个品种，其中以狸花猫和黄狸猫最常见。</p>
+</body>]]></content><author><name>xuan</name></author><summary type="html"><![CDATA[中华田园猫又称“土猫”，是食肉目猫科动物。 Bootstrap 实例 - 基本的表格]]></summary></entry><entry><title type="html">阿比西尼亚</title><link href="/2023/08/15/%E9%98%BF%E6%AF%94%E8%A5%BF%E5%B0%BC%E4%BA%9A.html" rel="alternate" type="text/html" title="阿比西尼亚" /><published>2023-08-15T00:00:00+00:00</published><updated>2023-08-15T00:00:00+00:00</updated><id>/2023/08/15/%E9%98%BF%E6%AF%94%E8%A5%BF%E5%B0%BC%E4%BA%9A</id><content type="html" xml:base="/2023/08/15/%E9%98%BF%E6%AF%94%E8%A5%BF%E5%B0%BC%E4%BA%9A.html"><![CDATA[<p>阿比西尼亚猫（英语：Abyssinian cat）是一种有着悠久历史的家猫品种，属短毛猫种。</p>
+<head>
+	<meta charset="utf-8" /> 
+	<title>Bootstrap 实例 - 默认的媒体对象</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>阿比西尼亚猫（英语：Abyssinian cat）</h2>
+  <!-- 左对齐 -->
+  <div class="media">
+    <div class="media-left">
+      <img src="https://th.bing.com/th/id/OIP.2IizXPLbux-6HdYTuP5ssAAAAA?w=202&amp;h=197&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" class="media-object" style="width:200px" />
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading"></h4>
+      <p>阿比西尼亚猫体态优雅、出众，眼睛闪著金色光泽，有王者风范。阿比西尼亚猫来源不清，传说是起源于尼罗河沿岸地带，该品种的猫活跃好动、性格外向、独立性强。</p>
+      <p>它也是美国最受欢迎的短毛猫种。</p>
+      <p>阿比西尼亚是埃塞俄比亚的旧称，但阿比西尼亚猫的起源故事却往往和埃及有关。基因比对发现阿比西尼亚猫起源于印度洋沿岸，可能是由殖民者购买的野猫，在埃及一带发展而来。之后的传说在1868年，一位英格兰士兵从埃及亚历山大港带回英国一只名为“祖菈”的小母猫。而阿比西尼亚猫系则是由祖菈与一只英国虎班猫交配之后产生的。尽管大多数阿比西尼亚猫在外观基因上都与祖菈相吻合，但并没有充分的证据证明后来被称为阿比西尼亚的猫系与祖菈间有直接的亲缘连系。</p>
+    </div>
+  </div>
+  <hr />
+  </div>
+  
+</body>]]></content><author><name>xuan</name></author><summary type="html"><![CDATA[阿比西尼亚猫（英语：Abyssinian cat）是一种有着悠久历史的家猫品种，属短毛猫种。 Bootstrap 实例 - 默认的媒体对象]]></summary></entry><entry><title type="html">狸花猫</title><link href="/2023/01/01/%E7%8B%B8%E8%8A%B1%E7%8C%AB.html" rel="alternate" type="text/html" title="狸花猫" /><published>2023-01-01T00:00:00+00:00</published><updated>2023-01-01T00:00:00+00:00</updated><id>/2023/01/01/%E7%8B%B8%E8%8A%B1%E7%8C%AB</id><content type="html" xml:base="/2023/01/01/%E7%8B%B8%E8%8A%B1%E7%8C%AB.html"><![CDATA[<p>中华田园猫中狸花猫原产于中国。</p>
+<head>
+	<meta charset="utf-8" /> 
+    <title>Bootstrap 实例 - 缩略图</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/R.3b6a8238a4809e68a5417fd586df68ff?rik=htQOCyKoeKakDw&amp;riu=http%3a%2f%2fwww.chongwumao.com.cn%2ffile%2fupload%2f201905%2f25%2f110642111.jpg&amp;ehk=KDLllaLtRmzbZ1YorrBxSAzBYHHVc44OmV6ZFTvLrEI%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/OIP.PE8Fndsf_Qk0StKmtadB6AHaF-?rs=1&amp;pid=ImgDetMain" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://sbike.cn/b/zhongguolihuamao/1.jpg" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="https://th.bing.com/th/id/OIP.VkC7qtrUIfd8RXXRIrEwsAHaFQ?rs=1&amp;pid=ImgDetMain" alt="通用的占位符缩略图" />
+        </a>
+    </div>
+</div>
+<p>狸花猫，是食肉目猫科 猫属哺乳动物。</p>
+<p>狸花猫两耳间距较近，大小适中，耳根宽阔，耳廓深；脸颊宽阔；眼睛大而明亮，呈圆杏核状；鼻子是砖红色，有鼻线；狸花猫的体形适中，胸腔宽而深厚；四肢及尾部长短适中，健壮有力，肌肉感强；额头有斑纹；脚垫和掌毛为黑色；被毛颜色通常是棕色或深棕色，有些狸花猫身体被毛有白色。因其有纯黄色的斑纹图案，因此又称黄狸猫、虎斑猫。</p>
+<p>狸花猫原产中国。</p>
+<p>狸花猫个性独立，活泼好动，对周围环境的改变比较敏感，一旦饲主有了变更，会对它们的心理造成不同程度的伤害，成年狸花猫并不太爱与人玩耍。狸花猫很容易家庭饲养，只需适合的粮食及干净的饮用水。狸花猫季节性多次发情，妊娠期为57-63天，一年可产2-3胎，每胎产仔3-5只。</p>
+<p>狸花猫是被国际爱猫联合会（CFA）认证的中国本土猫种。狸花猫是经过千百年的自然淘汰而形成的自然猫种，善于捕鼠。</p>
+
+</body>]]></content><author><name>xuan</name></author><summary type="html"><![CDATA[中华田园猫中狸花猫原产于中国。 Bootstrap 实例 - 缩略图]]></summary></entry><entry><title type="html">小瞒</title><link href="/2022/08/09/%E5%B0%8F%E7%9E%92.html" rel="alternate" type="text/html" title="小瞒" /><published>2022-08-09T00:00:00+00:00</published><updated>2022-08-09T00:00:00+00:00</updated><id>/2022/08/09/%E5%B0%8F%E7%9E%92</id><content type="html" xml:base="/2022/08/09/%E5%B0%8F%E7%9E%92.html"><![CDATA[<p>内容持续更新中</p>
+<head>
+	<meta charset="utf-8" /> 
+	<title>Bootstrap 实例 - 进度条</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>内容更新中</h2>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      70%
+    </div>
+  </div>
+</div>
+<p>你的名字是世界瞒着我最大的事情》是由王源作词、王源、陈令韬、王天放作曲，王源演唱的歌曲，收录于2021年6月16日发行的专辑《夏野了》中。</p> 
+<p>歌词： </p>
+<p>我想过和你散步仲夏夜海边 </p>
+<p>这不过是我见你第一面 </p>
+<p>怎么会这种念头不断出现 </p>
+<p>不住看你的视线 </p>
+<p>怎么表现不明显 </p>
+<p>而我 不过在这天遇见了你 </p>
+<p>我的世界雨过天晴 </p>
+<p>可是还有个小问题 </p>
+<p>怎么靠近你 和你的姓名 </p>
+<p>哪会难过 </p>
+<p>能见到你就重新定义了快乐 </p>
+<p>虽然遗憾不多 </p>
+<p>但还是有一个想对你说 </p>
+<p>我的名字是 dalala dalalaei dalal dalalaei </p>
+<p>好想用所有的语言 </p>
+<p>让你对我更了解 </p>
+<p>说不出口 dalala dalalaei dalal dalalaei  </p>
+<p>想亲口说一次 </p>
+<p>让你知道我名字 </p>
+<p>其实只想知道关于你的名字 </p>
+<p>这样就有了人事物地点 </p>
+<p>给最初心动画上句点圆圈 </p>
+<p>每次想起都很甜 </p>
+<p>闭上眼睛就看见 </p>
+<p>和你牵手散步在沙滩海边 </p>
+<p>和你在街角咖啡店 </p>
+<p>和你在暴雨的屋檐 </p>
+<p>春天的花田 </p>
+<p>和梦的里面 </p>
+<p>dalala dalalaei dalal dalalaei  </p>
+<p>世界瞒着你的名字 对我说到此为止 </p>
+<p>Oh no 还有 dalala dalalaei dalal dalalaei  </p>
+<p>不知道你的名字 就暂且叫故事</p>
+</body>]]></content><author><name>quan</name></author><summary type="html"><![CDATA[内容持续更新中 Bootstrap 实例 - 进度条]]></summary></entry></feed>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Plantuml的用法</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- MathJax -->
+    <script>
+    MathJax = {
+    tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+    svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  </head>
+  <body>
+    <head>  
+	<meta charset="utf-8">  
+	<title>Bootstrap 实例 - 自定义导航栏</title>  
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>  
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+	<style>  
+		/* 自定义当前页面链接的样式 */  
+		.navbar-nav .current {  
+			background-color: #e7e7e7; /* 或您想要的任何颜色 */  
+			color: #333; /* 或您想要的任何字体颜色 */  
+		}  
+	</style>  
+</head>  
+<body>  
+  
+<nav class="navbar navbar-default" role="navigation">  
+	<div class="container-fluid">  
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+			<ul class="nav navbar-nav">  
+				  
+				<li >  
+					<a href="/" >Home</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/about.html" >About</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/blog.html" >Blog</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/staff.html" >Staff</a>  
+				</li>  
+				  
+			</ul>  
+		</div>  
+	</div>  
+</nav>  
+  
+</body>  
+
+    <h1>Plantuml的用法</h1>
+
+<p>
+  23 May 2024
+  
+  
+    - <a href="/authors/xuan.html">xuan zi</a>
+  
+</p>
+
+<p>这是用例图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='189px' preserveAspectRatio='none' style='width:404px;height:189px;background:#FFFFFF;' version='1.1' viewBox='0 0 404 189' width='404px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id='elem_User'><ellipse cx='91.5' cy='14' fill='#F1F1F1' rx='8' ry='8' style='stroke:#181818;stroke-width:0.5;'/><path d='M91.5,22 L91.5,49 M78.5,30 L104.5,30 M91.5,49 L78.5,64 M91.5,49 L104.5,64 ' fill='none' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='32' x='75.5' y='78.4951'>User</text></g><g id='elem_Use'><ellipse cx='91.728' cy='162.5456' fill='#F1F1F1' rx='85.728' ry='19.5456' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='132' x='25.728' y='165.3923'>Use the application</text></g><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><g id='elem_Admin'><ellipse cx='305.5' cy='14' fill='#F1F1F1' rx='8' ry='8' style='stroke:#181818;stroke-width:0.5;'/><path d='M305.5,22 L305.5,49 M292.5,30 L318.5,30 M305.5,49 L292.5,64 M305.5,49 L318.5,64 ' fill='none' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='79' x='266' y='78.4951'>Main Admin</text></g><g id='elem_Admin the application'><ellipse cx='305.2771' cy='162.4554' fill='#F1F1F1' rx='92.7771' ry='20.9554' style='stroke:#181818;stroke-width:0.5;'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='148' x='231.2771' y='165.3021'>Admin the application</text></g><!--MD5=[9b1e83a301d632e8d5a1d64f176fc1f5]
+link User to Use--><g id='link_User_Use'><path d='M91.5,81.52 C91.5,99.8 91.5,121.34 91.5,137.46 ' fill='none' id='User-to-Use' style='stroke:#181818;stroke-width:1.0;'/><polygon fill='#181818' points='91.5,142.7,95.5,133.7,91.5,137.7,87.5,133.7,91.5,142.7' style='stroke:#181818;stroke-width:1.0;'/></g><!--MD5=[286837173fbad0561e8a9a3273598f57]
+link Admin to Admin the application--><g id='link_Admin_Admin the application'><path d='M305.5,81.52 C305.5,99.32 305.5,120.21 305.5,136.17 ' fill='none' id='Admin-to-Admin the application' style='stroke:#181818;stroke-width:1.0;'/><polygon fill='#181818' points='305.5,141.39,309.5,132.39,305.5,136.39,301.5,132.39,305.5,141.39' style='stroke:#181818;stroke-width:1.0;'/></g></g></svg></div><p>下面是一个思维导图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='247px' preserveAspectRatio='none' style='width:182px;height:247px;background:#FFFFFF;' version='1.1' viewBox='0 0 182 247' width='182px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='60' x='10' y='104.4453'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='40' x='20' y='127.4404'>bread</text><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='50' x='120' y='20'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='30' x='130' y='42.9951'>flour</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,38.1484 110,38.1484 L120,38.1484 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='28' x='120' y='76.2969'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='130' y='99.292'>水</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,94.4453 110,94.4453 L120,94.4453 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='28' x='120' y='132.5938'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='8' x='130' y='155.5889'>糖</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,150.7422 110,150.7422 L120,150.7422 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/><rect fill='#F1F1F1' height='36.2969' rx='12.5' ry='12.5' style='stroke:#181818;stroke-width:1.5;' width='47' x='120' y='188.8906'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='27' x='130' y='211.8857'>egg</text><path d='M70,122.5938 L80,122.5938 C95,122.5938 95,207.0391 110,207.0391 L120,207.0391 ' fill='none' style='stroke:#181818;stroke-width:1.0;'/></g></svg></div>
+<p>一个简单的泳道图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='149px' preserveAspectRatio='none' style='width:105px;height:149px;background:#FFFFFF;' version='1.1' viewBox='0 0 105 149' width='105px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='23' x2='23' y1='36.2969' y2='114.5625'/><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='77' x2='77' y1='36.2969' y2='114.5625'/><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='24.9951'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='133.5576'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='24.9951'>Dog</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='133.5576'>Dog</text><polygon fill='#181818' points='65.5,63.4297,75.5,67.4297,65.5,71.4297,69.5,67.4297' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='23.5' x2='71.5' y1='67.4297' y2='67.4297'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='30' x='30.5' y='62.3638'>hello</text><polygon fill='#181818' points='34.5,92.5625,24.5,96.5625,34.5,100.5625,30.5,96.5625' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='28.5' x2='76.5' y1='96.5625' y2='96.5625'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='11' x='40.5' y='91.4966'>hi</text></g></svg></div>
+  </body>
+</html>
